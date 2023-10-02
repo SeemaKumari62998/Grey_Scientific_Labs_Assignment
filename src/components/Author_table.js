@@ -58,13 +58,11 @@ function Table() {
       <div>
         <div className="search-bar">
           <input type="text" placeholder="Search..." />
-          <i className="fas fa-search"></i> {/* Search icon */}
+          <i className="fas fa-search"></i>
         </div>
-
-        {/* Profile and Settings icons */}
         <div className="profile-settings-icons">
-          <i className="fas fa-user"></i> {/* Profile icon */}
-          <i className="fas fa-cog"></i> {/* Settings icon */}
+          <i className="fas fa-user"></i>
+          <i className="fas fa-cog"></i>
         </div>
       </div>
 
