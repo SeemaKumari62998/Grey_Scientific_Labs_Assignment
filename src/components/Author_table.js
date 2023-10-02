@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Table() {
-  const [data, setData] = useState([
+  const [data] = useState([
     {
       id: 1,
       name: "John Doe",
@@ -45,13 +45,13 @@ function Table() {
     // Add more data as needed
   ]);
 
-  const toggleActivation = (id) => {
-    setData((prevData) =>
-      prevData.map((item) =>
-        item.id === id ? { ...item, isActive: !item.isActive } : item
-      )
-    );
-  };
+  // const toggleActivation = (id) => {
+  //   setData((prevData) =>
+  //     prevData.map((item) =>
+  //       item.id === id ? { ...item, isActive: !item.isActive } : item
+  //     )
+  //   );
+  // };
 
   return (
     <div>
